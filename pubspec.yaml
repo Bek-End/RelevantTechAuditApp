@@ -1,0 +1,38 @@
+name: tech_audit_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  rxdart: ^0.24.1
+  device_preview: ^0.5.5
+  flutter_map: ^0.11.0
+  flutter_map_marker_cluster: ^0.3.4
+  dio: ^3.0.10
+  flutter_spinkit: ^4.1.2
+  hive: ^1.4.4+1
+  path_provider: ^1.6.27
+  hive_generator: ^0.8.1
+  build_runner: ^1.11.0
+  flutter_map_location_marker: ^0.0.7
+  pie_chart: ^4.0.1
+  image_picker: ^0.6.7+12
+  photo_view: ^0.10.3
+  chewie: ^0.12.2
+  camera: ^0.7.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
